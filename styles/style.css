@@ -1,0 +1,330 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #141024;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.visualy-hidden {
+  visibility: hidden;
+}
+
+.container {
+  padding: 0 15vw;
+}
+
+* {
+  font-family: "Jost", serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  background-color: #141024;
+}
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.header a:hover {
+  padding: 0 10px;
+  text-shadow: 0px 0px 10px rgba(184, 44, 44, 0.932);
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 1.6vw;
+  width: auto;
+}
+
+.header__contact .header__phone {
+  font-size: 20px;
+}
+
+.button {
+  font-size: 18px;
+  padding: 15px 30px;
+  background-color: #d52027;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.button:hover {
+  transform: scale(1.06);
+  box-shadow: 5px 5px 220px 5px rgb(184, 109, 109);
+}
+
+.main {
+  background-color: #141024;
+  min-height: 69vh;
+  padding-top: 9vh;
+}
+.main .container {
+  padding: 0 20vw;
+  display: flex;
+  justify-content: center;
+}
+.main .main__wrapper {
+  display: flex;
+  align-items: center;
+}
+.main .main__wrapper .main__content {
+  color: #fff;
+}
+.main .main__wrapper .main__content .main__title {
+  font-size: 56px;
+  font-weight: 600;
+}
+.main .main__wrapper .main__content .main__text {
+  font-size: 20px;
+}
+.main .main__wrapper .main__content .button {
+  margin-top: 30px;
+}
+.main .main__wrapper .main__illustration {
+  display: flex;
+}
+.main .main__wrapper .main__illustration img {
+  width: 95%;
+}
+
+.info {
+  padding: 70px 0;
+}
+.info .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.info__title {
+  font-size: 20px;
+  width: 48%;
+}
+
+.info__list-item__text {
+  font-size: 18px;
+  color: rgba(20, 16, 36, 0.6980392157);
+}
+
+.info__list {
+  margin-top: 50px;
+  display: flex;
+  gap: 10px;
+}
+
+.info__list-item__title {
+  color: #D52027;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.after-course {
+  margin-bottom: 70px;
+  background-color: #F9F9F9;
+  padding: 10vh 0;
+}
+.after-course .container {
+  display: flex;
+  flex-direction: column;
+  gap: 7vh;
+}
+.after-course .after-course__skills {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.after-course .after-course__skills .after-course__skills-item .after-course__skills-title, .after-course .after-course__skills .after-course__skills-item .after-course__skills-title:last-child {
+  font-size: 20px;
+  margin-bottom: 3vh;
+}
+.after-course .after-course__skills .after-course__skills-item .after-course__skills-text {
+  font-size: 18px;
+}
+.after-course .after-course__skills-item:last-child .after-course__skills-title {
+  display: inline-block;
+}
+.after-course .after-course__skills-item:last-child span {
+  padding: 2px 12px;
+  border-radius: 50%;
+  background-color: rgba(20, 16, 36, 0.0784313725);
+  position: relative;
+  cursor: pointer;
+}
+.after-course .after-course__skills-item:last-child span::after {
+  position: absolute;
+  right: -187px;
+  top: -41px;
+  padding: 5px 10px;
+  width: -moz-max-content;
+  width: max-content;
+  content: "При наличии свободных мест";
+  display: inline-block;
+  box-shadow: 1px 1px 13px 3px rgb(231, 231, 231);
+  transition: 0.4s ease;
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 5px;
+}
+.after-course .after-course__skills-item:last-child span:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.trainers .container {
+  padding-right: 0;
+}
+
+.trainers__title {
+  margin-bottom: 60px;
+}
+
+.swiper-progress-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  background-color: #00bcd4;
+  width: 0%; /* начальная ширина */
+  transition: width 0.3s ease;
+}
+
+.trainers__swiper {
+  margin-bottom: 100px;
+}
+
+.progress {
+  background-color: rgba(131, 131, 131, 0.4392156863);
+  width: 360px;
+  height: 4px;
+  position: relative;
+  border-radius: 100px;
+}
+.progress .swiper-progress-bar {
+  border-radius: 100px;
+}
+
+.swiper-progress-bar {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #838383;
+}
+
+.swiper__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 50px;
+  position: relative;
+  overflow: visible;
+  height: 100px;
+}
+.swiper__nav .s-button-prev {
+  position: absolute;
+  top: 6vh;
+  right: 27vw;
+}
+.swiper__nav .s-button-next {
+  position: absolute;
+  top: 6vh;
+  right: 24vw;
+}
+
+.swiper-slide__title {
+  color: #141024;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.swiper-slide__text {
+  color: rgba(20, 16, 36, 0.4392156863);
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0 20px 0;
+}
+
+.swiper-slide__link {
+  color: #D52027;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: 0.4s ease-out;
+}
+
+.swiper-slide__link:hover {
+  text-shadow: 1px 1px 5px #ff0008;
+}
+
+.tarifs {
+  margin-bottom: 120px;
+}
+.tarifs .title {
+  margin-bottom: 60px;
+}
+
+.tarifs__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+.tarifs__list .tarif__item {
+  min-width: 360px;
+  min-height: 430px;
+  border-radius: 30px;
+  border: 1px solid rgba(20, 16, 36, 0.1254901961);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 25px;
+  color: #141024;
+  transition: all 0.4s ease-in-out;
+  cursor: default;
+}
+.tarifs__list .tarif__item .tarif__item-title {
+  font-size: 30px;
+}
+.tarifs__list .tarif__item .tarif__item-price {
+  font-size: 50px;
+  font-weight: 600;
+}
+.tarifs__list .tarif__item .tarif__item-text {
+  font-size: 18px;
+}
+.tarifs__list .tarif__item .tarif__item-button {
+  width: 100%;
+  font-size: 18px;
+  padding: 25px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #D52027;
+  color: #FFF;
+  transition: 0.4s ease-in-out;
+}
+.tarifs__list .tarif__item .tarif__item-button:hover {
+  background-color: #fff;
+  color: #D52027;
+}
+.tarifs__list .tarif__item:hover {
+  min-height: 480px;
+  border: none;
+  background-color: #141024;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

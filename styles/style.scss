@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+.title{
+  font-size: 32px;
+  font-weight: 600;
+  color: #141024;
+}
+
+ul{
+  list-style-type: none;
+}
+.visualy-hidden{
+  visibility: hidden;
+}
+.container{
+  padding: 0 15vw;
+}
+
+* {
+  font-family: "Jost", serif;
+  margin: 0;
+  padding: 0;
+}
+
+@import 
+    "main", 
+    "info",
+    'after-course',
+    'trainers',
+    'tarifs';

@@ -1,0 +1,64 @@
+.after-course{
+
+    margin-bottom: 70px;
+    background-color: #F9F9F9;
+    padding: 10vh 0;
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 7vh;
+    }
+
+    .after-course__skills{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+
+        .after-course__skills-item{
+
+            .after-course__skills-title, .after-course__skills-title:last-child{
+                font-size: 20px;
+                margin-bottom: 3vh;
+            }
+
+            .after-course__skills-text{
+                font-size: 18px;
+            }
+        }
+    }
+
+    .after-course__skills-item:last-child{
+
+        .after-course__skills-title{
+            display: inline-block;
+        }
+
+        span{
+            padding: 2px 12px;
+            border-radius: 50%;
+            background-color: #14102414;
+            position: relative;
+            cursor: pointer;
+        }
+
+        span::after{
+            position: absolute;
+            right: -187px;
+            top: -41px;
+            padding: 5px 10px;
+            width: max-content;
+            content: 'При наличии свободных мест';
+            display: inline-block;
+            box-shadow: 1px 1px 13px 3px rgb(231, 231, 231);
+            transition: .4s ease;
+            visibility: hidden;
+            opacity: 0;
+            border-radius: 5px;
+        }
+
+        span:hover::after{
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}

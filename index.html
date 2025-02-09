@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" type="image/png" href="icons/pcb-board.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <script src="scripts/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img src="images/ROBO.SCHOOL.png" alt="" />
+      </div>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__item-link" href="">О школе</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__item-link" href="">Тренеры</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__item-link" href="">Стоимость</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__contact">
+        <a class="header__phone" href="tel:+78000001122">+7 800 000 11 22</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="main">
+        <div class="container">
+          <div class="main__wrapper">
+            <div
+              class="wow animate__animated animate__fadeInLeft main__content"
+            >
+              <h1 class="main__title">ROBO SCHOOL</h1>
+
+              <p class="main__text">
+                Курсы повышения квалификации по робототехнике для педагогов
+                начальной школы
+              </p>
+
+              <button class="button">Записаться на курс</button>
+            </div>
+            <div
+              class="main__illustration animate__animated animate__fadeInRight"
+            >
+              <img
+                src="images/main-girl.png"
+                alt="Девушка изучающая робототехнику"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="info">
+        <div class="container">
+          <h2 class="visualy-hidden">Robo School</h2>
+          <p class="info__title">
+            <b>Robo School </b> – учреждение для формирования кадрового
+            педагогического резерва в сфере робототехникии программирования
+          </p>
+
+          <ul class="info__list">
+            <li
+              class="wow info__list-item animate__animated animate__fadeInLeft"
+            >
+              <p class="info__list-item__title" data-value="10">0</p>
+              <p class="info__list-item__text">
+                УМК по различным направлениям по робототехнике
+              </p>
+            </li>
+            <li class="wow info__list-item animate__animated animate__fadeIn">
+              <p class="info__list-item__title" data-value="20">0</p>
+              <p class="info__list-item__text">
+                Школ, в которых запущена робототехника
+              </p>
+            </li>
+            <li class="wow info__list-item animate__animated animate__fadeIn">
+              <p class="info__list-item__title" data-value="100">0</p>
+              <p class="info__list-item__text">
+                Педагогов прошедших курсы повышения квалификации
+              </p>
+            </li>
+            <li
+              class="wow info__list-item animate__animated animate__fadeInRight"
+            >
+              <p class="info__list-item__title" data-value="800">0</p>
+              <p class="info__list-item__text">
+                Обученных детей на базе собственных центров
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="after-course">
+        <div class="container">
+          <h2 class="title after-course__heading">
+            Что вы получите после курса
+          </h2>
+
+          <ul class="after-course__skills">
+            <li class="after-course__skills-item">
+              <h3 class="after-course__skills-title">Удостоверение</h3>
+              <p class="after-course__skills-text">
+                Дающее право преподавать робототехнику для детей 6-12 лет в
+                образовательных учреждениях
+              </p>
+            </li>
+            <li class="after-course__skills-item">
+              <h3 class="after-course__skills-title">Знания</h3>
+              <p class="after-course__skills-text">
+                По основам разработки учебно-методических комплексов по
+                робототехнике и программированию
+              </p>
+            </li>
+            <li class="after-course__skills-item">
+              <h3 class="after-course__skills-title">Практику</h3>
+              <span>i</span>
+              <p class="after-course__skills-text">
+                Возможность пройти практику по преподаванию робототехники на
+                базе R:ED LAB (в оффлайн или онлайн формате)
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="trainers">
+        <div class="container">
+          <h2 class="title trainers__title">Профессиональные тренеры</h2>
+
+          <div class="swiper trainers__swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/image-Irina.jpg" />
+                <h3 class="swiper-slide__title">Ирина Лайм</h3>
+                <p class="swiper-slide__text">Преподаватель по робототехнике</p>
+                <a class="swiper-slide__link" href="">Подробнее</a>
+              </div>
+              <div class="swiper-slide">
+                <img src="images/image-Marina.jpg" alt="" />
+                <h3 class="swiper-slide__title">Марина Орлова</h3>
+                <p class="swiper-slide__text">Преподаватель по робототехнике</p>
+                <a class="swiper-slide__link" href="">Подробнее</a>
+              </div>
+              <div class="swiper-slide">
+                <img src="images/image-Maksim.jpg" alt="" />
+                <h3 class="swiper-slide__title">Максим Петров</h3>
+                <p class="swiper-slide__text">
+                  Преподаватель по программированию
+                </p>
+                <a class="swiper-slide__link" href="">Подробнее</a>
+              </div>
+              <div class="swiper-slide">
+                <img src="images/image-Konstantin.jpg" alt="" />
+                <h3 class="swiper-slide__title">Константин Назаров</h3>
+                <p class="swiper-slide__text">Преподаватель по робототехнике</p>
+                <a class="swiper-slide__link" href="">Подробнее</a>
+              </div>
+              <div class="swiper-slide">
+                <img src="images/image-Liza.jpg" alt="" />
+                <h3 class="swiper-slide__title">Лиза Весенняя</h3>
+                <p class="swiper-slide__text">
+                  Преподаватель по программированию
+                </p>
+                <a class="swiper-slide__link" href="">Подробнее</a>
+              </div>
+            </div>
+
+            <div class="swiper__nav">
+              <div class="progress">
+                <div class="swiper-progress-bar"></div>
+              </div>
+
+              <div class="s-button-prev"><img src="icons/prew.png" /></div>
+              <div class="s-button-next"><img src="icons/next.png" /></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tarifs">
+        <div class="container">
+          <h2 class="title">Выберите нужный пакет</h2>
+          <ul class="tarifs__list">
+            <li class="tarif__item wow animate__animated animate__fadeInLeft">
+              <h3 class="tarif__item-title">– PRO –</h3>
+              <div class="tarif__item-price">20.000 ₽</div>
+              <div class="tarif__item-text">
+                УМК по робототетхнике <br />
+                и программированию
+              </div>
+              <button class="tarif__item-button">Оставить заявку</button>
+            </li>
+            <li class="tarif__item wow animate__animated animate__fadeInUp">
+              <h3 class="tarif__item-title">– ROBO –</h3>
+              <div class="tarif__item-price">15.000 ₽</div>
+              <div class="tarif__item-text">УМК по робототетхнике</div>
+              <button class="tarif__item-button">Оставить заявку</button>
+            </li>
+            <li class="tarif__item wow animate__animated animate__fadeInRight">
+              <h3 class="tarif__item-title">– PROG –</h3>
+              <div class="tarif__item-price">10.000 ₽</div>
+              <div class="tarif__item-text">УМК по программированию</div>
+              <button class="tarif__item-button">Оставить заявку</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__text">
+          <h2 class="footer__title">
+            Запишитесь на курс <br />
+            со скидкой 10%
+          </h2>
+          <p class="footer__sub-title">
+            Акция действительна до 10 марта 2022 года
+          </p>
+        </div>
+
+        <div class="footer__form">
+          <form action="">
+            <input type="text" name="" id="">
+            <input type="tel" name="" id="">
+            <input type="email" name="" id="">
+            <input type="button" value=""></form>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@9/swiper-bundle.min.js"></script>
+    <script src="scripts/swiper.js"></script>
+    <script src="scripts/counter.js"></script>
+  </body>
+</html>
