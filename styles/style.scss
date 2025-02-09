@@ -22,9 +22,13 @@ ul{
   padding: 0;
 }
 
+$colorRed: #D52027;
+$colorDark: #141024;
+
 @import 
     "main", 
     "info",
     'after-course',
     'trainers',
-    'tarifs';
+    'tarifs',
+    'footer';

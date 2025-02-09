@@ -313,6 +313,7 @@ ul {
   padding: 25px 0;
   border: none;
   outline: none;
+  border-radius: 10px;
   cursor: pointer;
   background-color: #D52027;
   color: #FFF;
@@ -326,5 +327,69 @@ ul {
   min-height: 480px;
   border: none;
   background-color: #141024;
+  color: #fff;
+}
+
+.footer {
+  background-color: #D52027;
+  padding: 90px 0;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .container .footer__text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #FFF;
+}
+.footer .container .footer__text .footer__title {
+  font-size: 30px;
+  line-height: 36px;
+}
+.footer .container .footer__text .footer__sub-title {
+  font-size: 18px;
+}
+.footer .container .footer__form {
+  min-width: 20vw;
+}
+.footer .container .footer__form form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.footer .container .footer__form form input {
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  cursor: default;
+  transition: 0.4s ease-in-out;
+}
+.footer .container .footer__form form input:focus {
+  font-size: 20px;
+}
+.footer .container .footer__form form button {
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background-color: #141024;
+  color: #fff;
+  padding: 12px 0;
+  cursor: pointer;
+}
+
+.footer-second {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+  background-color: #141024;
+  color: #FFF;
+}
+.footer-second a {
+  font-size: 26px;
+  text-decoration: none;
   color: #fff;
 }/*# sourceMappingURL=style.css.map */
